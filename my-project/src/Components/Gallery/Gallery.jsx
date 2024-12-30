@@ -14,7 +14,7 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="container mx-auto py-12 px-4">
+    <div id="gallery" className="container mx-auto py-12 px-4">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
         Gallery
       </h2>

@@ -4,10 +4,10 @@ import { FaBars } from "react-icons/fa";
 
 const NavLinks = [
   { id: 1, title: "Home", link: "#" },
-  { id: 2, title: "About", link: "#" },
-  { id: 3, title: "Products", link: "#" },
-  { id: 4, title: "Gallery", link: "#" },
-  { id: 5, title: "Contact", link: "#" },
+  { id: 2, title: "About", link: "#about" },
+  { id: 3, title: "Products", link: "#products" },
+  { id: 4, title: "Gallery", link: "#gallery" },
+  { id: 5, title: "Contact", link: "#contact" },
 ];
 
 const Navbar = () => {
@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* Logo section */}
         <div className="flex items-center gap-3">
           <img src={Logo} alt="logo" className="w-10" />
-          <span className="text-2xl font-bold">Mythili Coirs</span>
+          <span className="text-3xl font-bold">Mythili Coirs</span>
         </div>
 
         {/* Link section */}
@@ -33,7 +33,7 @@ const Navbar = () => {
               <a
                 key={link.id}
                 href={link.link}
-                className="mx-4 text-sm font-semibold"
+                className="mx-5 text-lg font-semibold"
               >
                 {link.title}
               </a>

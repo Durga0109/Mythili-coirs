@@ -2,6 +2,7 @@ import React from "react";
 import Banner1JPG from "../../assets/banner1.jpg";
 import Banner2JPG from "../../assets/banner2.jpg";
 import Banner3JPG from "../../assets/banner3.jpg";
+import ProductGrid from "../Products/Products";
 
 const Hero = () => {
   return (
@@ -40,7 +41,7 @@ const Hero = () => {
           <p className="mt-4 text-lg md:text-xl">
             Crafting Sustainables with Solutions since 2000.
           </p>
-          <button className="mt-6 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium text-lg rounded">
+          <button className="mt-6 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium text-lg rounded "  onClick={() => window.location.hash = '#products'}>
             Explore Products
           </button>
         </div>

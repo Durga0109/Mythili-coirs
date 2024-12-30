@@ -43,7 +43,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="min-h-[620px] flex justify-center items-center py-12 sm:py-0">
+    <div id="about" className="min-h-[620px] flex justify-center items-center py-12 sm:py-0">
       <div className="container">
         <div
           className={`grid grid-cols-1 sm:grid-cols-2 gap-8 about-section transition-all duration-1000 transform ${
