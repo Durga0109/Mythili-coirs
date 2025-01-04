@@ -39,7 +39,7 @@ const Hero = () => {
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4 bg-black bg-opacity-50">
           <h1 className="text-4xl md:text-6xl font-bold">PREMIUM COIR PRODUCTS</h1>
           <p className="mt-4 text-lg md:text-xl">
-            Crafting Sustainables with Solutions since 2000.
+            Crafting Sustainables with Solutions since 2020.
           </p>
           <button className="mt-6 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium text-lg rounded "  onClick={() => window.location.hash = '#products'}>
             Explore Products

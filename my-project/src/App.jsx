@@ -7,12 +7,14 @@ import Features from "./Components/Features/Features";
 import Gallery from "./Components/Gallery/Gallery";
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer";
+import ImpactStatistics from "./Components/ImpactStatistics/ImpactStatistics";
 const App = () => {
   return(
     <main className="overflow-x-hidden">
     <Navbar /> 
     <Hero />
     <About />
+    <ImpactStatistics />
     <Products />
     <Features />
     <Gallery />

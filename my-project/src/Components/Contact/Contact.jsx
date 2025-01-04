@@ -27,24 +27,29 @@ const ContactUs = () => {
           <div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Get in Touch</h3>
             <p className="mb-2">
-            SF NO-430,431
-            SP. VADUGAPALAYAM
-            SENJERI PUTHUR
-            SULUR TALUK
-            COIMBATORE
-            TAMILNADU
-            641671
-
+              SF NO-430,431<br />
+              SP. VADUGAPALAYAM<br />
+              SENJERI PUTHUR<br />
+              SULUR TALUK<br />
+              COIMBATORE<br />
+              TAMILNADU<br />
+              641671
             </p>
             <p className="mb-2">
               Email:{" "}
-              <a href="kavinprasath.govindasamy15@gmail.com" className="text-blue-500 hover:underline">
-              kavinprasath.govindasamy15@gmail.com 
+              <a
+                href="mailto:kavinprasath.govindasamy15@gmail.com"
+                className="text-blue-500 hover:underline"
+              >
+                
               </a>
             </p>
             <p className="mb-2">
               Phone:{" "}
-              <a href="tel:+1234567890" className="text-blue-500 hover:underline">
+              <a
+                href="tel:+1234567890"
+                className="text-blue-500 hover:underline"
+              >
                 +1 234 567 890
               </a>
             </p>
@@ -88,6 +93,23 @@ const ContactUs = () => {
                 Submit
               </button>
             </form>
+          </div>
+        </div>
+
+        {/* Map Section */}
+        <div className="mt-12">
+          <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Location</h3>
+          <div className="map-container">
+            <iframe
+              title="Google Map Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0501136676953!2d77.25382877369628!3d10.80747385862302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9b31a4d1ba037%3A0x5054ff180da96090!2sMythili%20coirs!5e0!3m2!1sen!2sin!4v1735959066260!5m2!1sen!2sin" 
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>

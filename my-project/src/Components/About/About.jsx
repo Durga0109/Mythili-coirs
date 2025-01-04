@@ -85,7 +85,7 @@ const About = () => {
               sustainably sourced from coconut husks. With a focus on
               eco-friendly practices and advanced technology, we provide
               reliable, sustainable solutions. Our modern facilities, spanning
-              five acres, ensure top-quality production while upholding our
+              five acres concrete, ensure top-quality production while upholding our
               commitment to the environment. We are dedicated to building a
               greener future with every product we create.
             </p>
